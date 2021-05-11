@@ -1,3 +1,11 @@
+:root{
+    --cor-principal: #212529;
+    --cor-secundaria: rgba(255,255,255,.75);
+}
+
+html{
+    scroll-behavior: smooth;
+}
 /* Classes */
 .menu-direita{
     margin-left: auto;
@@ -5,8 +13,8 @@
 
 /* IDs */
 #quem-sou-eu{
-    color: rgba(255,255,255,.75);
-    background-color: #212529;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
     height: calc(100vh - 56px);
     padding-top: 15vh;
 }
